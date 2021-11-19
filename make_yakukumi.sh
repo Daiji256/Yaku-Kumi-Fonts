@@ -2,7 +2,7 @@
 
 mkdir -p yaku-kumi
 
-for file in `find noto-cjk/ttc/ -name '*.ttc'`; do
+for file in `find noto-cjk/ -name '*.ttc'`; do
     outname=`basename $file`
     outname=${outname/Noto/YakuKumi}
     outname=${outname/CJKjp/}
