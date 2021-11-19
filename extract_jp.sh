@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # UniteTTC is required.
-# Please download it from http://yozvox.web.fc2.com/556E697465545443.html.
+# Please download it from [http://yozvox.web.fc2.com/556E697465545443.html].
 
 # expand ttc
 for file in `find . -name '*.ttc'`; do
