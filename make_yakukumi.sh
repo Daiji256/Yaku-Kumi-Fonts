@@ -6,10 +6,11 @@ for file in `find noto-cjk/ -name '*.ttc'`; do
     outname=`basename $file`
     outname=${outname/Noto/YakuKumi}
     outname=${outname/CJK/}
-    outname=${outname/ttc/otf}
-    pyftsubset ${file} --font-number=0 --text="、，。．〈〉《》「」『』【】〔〕（）［］｛｝" --layout-features='*' --output-file=fonts/${outname}
+    outname=${outname/.ttc/}
+    pyftsubset ${file} --font-number=0 --text="、，。．〈〉《》「」『』【】〔〕（）［］｛｝" --layout-features='*' --output-file=fonts/${outname}.otf
     familyname=${outname}
     familyname=${familyname/YakuKumiSans-/Yaku Kumi Sans }
-    familyname=${familyname/.otf/}
-    python3 fontname.py "${familyname}" fonts/${outname}
+    python3 fontname.py "${familyname}" fonts/${outname}.otf
+    pyftsubset fonts/${outname}.otf --text="、，。．〈〉《》「」『』【】〔〕（）［］｛｝" --layout-features='*' --flavor=woff --output-file=fonts/${outname}.woff
+    pyftsubset fonts/${outname}.otf --text="、，。．〈〉《》「」『』【】〔〕（）［］｛｝" --layout-features='*' --flavor=woff2 --output-file=fonts/${outname}.woff2
 done
