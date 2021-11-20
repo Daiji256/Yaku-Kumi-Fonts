@@ -24,6 +24,12 @@ Android 12 から Noto CJK に `chws` による約物のアキを詰める修正
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.0/css/yakukumi-sans-rb.min.css">
 ```
 
+CSS は `font-family` を設定し，`chws` をオンにしてください。
+```css
+font-family: "Yaku Kumi Sans", "Noto Sans JP", sans-serif;
+font-feature-settings: "chws" 1;
+```
+
 # License
 
 フォントは Noto CJK 由来なので SIL OFL 1.1，CSS 等は MIT ライセンスです。
