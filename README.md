@@ -1,5 +1,7 @@
 # 約組フォント / Yaku Kumi Fonts
 
+![demo1](img/yakukumi-demo-1.png)
+
 約組フォント（Yaku Kumi Fonts）は，Noto CJK を元に作成した，約物が連続したときのアキを `chws` で調整する 約物専用 Web フォントです。
 
 Android 12 から Noto CJK に `chws` による約物のアキを詰める修正がされたため，約物をサブセットして作成しました。詳しくは [simonsmh/notocjk](https://github.com/simonsmh/notocjk) を参考にしてください。
