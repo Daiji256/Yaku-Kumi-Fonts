@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "YakuKumiSerif";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/YakuKumiSerif-Thin.woff2") format("woff2"),
+    url("../fonts/YakuKumiSerif-Thin.woff") format("woff"),
+    url("../fonts/YakuKumiSerif-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "YakuKumiSerif";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/YakuKumiSerif-Light.woff2") format("woff2"),
+    url("../fonts/YakuKumiSerif-Light.woff") format("woff"),
+    url("../fonts/YakuKumiSerif-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "YakuKumiSerif";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/YakuKumiSerif-DemiLight.woff2") format("woff2"),
+    url("../fonts/YakuKumiSerif-DemiLight.woff") format("woff"),
+    url("../fonts/YakuKumiSerif-DemiLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "YakuKumiSerif";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/YakuKumiSerif-Regular.woff2") format("woff2"),
+    url("../fonts/YakuKumiSerif-Regular.woff") format("woff"),
+    url("../fonts/YakuKumiSerif-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "YakuKumiSerif";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/YakuKumiSerif-Medium.woff2") format("woff2"),
+    url("../fonts/YakuKumiSerif-Medium.woff") format("woff"),
+    url("../fonts/YakuKumiSerif-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "YakuKumiSerif";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/YakuKumiSerif-Bold.woff2") format("woff2"),
+    url("../fonts/YakuKumiSerif-Bold.woff") format("woff"),
+    url("../fonts/YakuKumiSerif-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "YakuKumiSerif";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/YakuKumiSerif-Black.woff2") format("woff2"),
+    url("../fonts/YakuKumiSerif-Black.woff") format("woff"),
+    url("../fonts/YakuKumiSerif-Black.otf") format("opentype");
+}
