@@ -12,20 +12,11 @@
 @font-face {
   font-family: "Yaku Kumi Sans";
   font-style: normal;
-  font-weight: 200;
+  font-weight: 300;
   font-display: swap;
   src: url("../fonts/YakuKumiSans-Light.woff2") format("woff2"),
     url("../fonts/YakuKumiSans-Light.woff") format("woff"),
     url("../fonts/YakuKumiSans-Light.otf") format("opentype");
-}
-@font-face {
-  font-family: "Yaku Kumi Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url("../fonts/YakuKumiSans-DemiLight.woff2") format("woff2"),
-    url("../fonts/YakuKumiSans-DemiLight.woff") format("woff"),
-    url("../fonts/YakuKumiSans-DemiLight.otf") format("opentype");
 }
 @font-face {
   font-family: "Yaku Kumi Sans";
@@ -66,29 +57,20 @@
 @font-face {
   font-family: "Yaku Kumi Serif";
   font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url("../fonts/YakuKumiSerif-Thin.woff2") format("woff2"),
-    url("../fonts/YakuKumiSerif-Thin.woff") format("woff"),
-    url("../fonts/YakuKumiSerif-Thin.otf") format("opentype");
-}
-@font-face {
-  font-family: "Yaku Kumi Serif";
-  font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url("../fonts/YakuKumiSerif-Light.woff2") format("woff2"),
-    url("../fonts/YakuKumiSerif-Light.woff") format("woff"),
-    url("../fonts/YakuKumiSerif-Light.otf") format("opentype");
+  src: url("../fonts/YakuKumiSerif-ExtraLight.woff2") format("woff2"),
+    url("../fonts/YakuKumiSerif-ExtraLight.woff") format("woff"),
+    url("../fonts/YakuKumiSerif-ExtraLight.otf") format("opentype");
 }
 @font-face {
   font-family: "Yaku Kumi Serif";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/YakuKumiSerif-DemiLight.woff2") format("woff2"),
-    url("../fonts/YakuKumiSerif-DemiLight.woff") format("woff"),
-    url("../fonts/YakuKumiSerif-DemiLight.otf") format("opentype");
+  src: url("../fonts/YakuKumiSerif-Light.woff2") format("woff2"),
+    url("../fonts/YakuKumiSerif-Light.woff") format("woff"),
+    url("../fonts/YakuKumiSerif-Light.otf") format("opentype");
 }
 @font-face {
   font-family: "Yaku Kumi Serif";
@@ -107,6 +89,15 @@
   src: url("../fonts/YakuKumiSerif-Medium.woff2") format("woff2"),
     url("../fonts/YakuKumiSerif-Medium.woff") format("woff"),
     url("../fonts/YakuKumiSerif-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Yaku Kumi Serif";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/YakuKumiSerif-SemiBold.woff2") format("woff2"),
+    url("../fonts/YakuKumiSerif-SemiBold.woff") format("woff"),
+    url("../fonts/YakuKumiSerif-SemiBold.otf") format("opentype");
 }
 @font-face {
   font-family: "Yaku Kumi Serif";
