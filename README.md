@@ -17,18 +17,18 @@ Android 12 から Noto CJK に `chws` による約物のアキを詰める修正
 
 |フォント   |ウエイト|URL                                                                                     |
 |-----------|--------|----------------------------------------------------------------------------------------|
-|Sans, Serif|全て    |https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.0/css/yakukumi.min.css          |
-|Sans       |全て    |https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.0/css/yakukumi-sans-all.min.css |
-|           |400, 700|https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.0/css/yakukumi-sans-rb.min.css  |
-|           |400     |https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.0/css/yakukumi-sans-r.min.css   |
-|Serif      |全て    |https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.0/css/yakukumi-serif-all.min.css|
-|           |400, 700|https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.0/css/yakukumi-serif-rb.min.css |
-|           |400     |https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.0/css/yakukumi-serif-r.min.css  |
+|Sans, Serif|全て    |https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.1/css/yakukumi.min.css          |
+|Sans       |全て    |https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.1/css/yakukumi-sans-all.min.css |
+|           |400, 700|https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.1/css/yakukumi-sans-rb.min.css  |
+|           |400     |https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.1/css/yakukumi-sans-r.min.css   |
+|Serif      |全て    |https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.1/css/yakukumi-serif-all.min.css|
+|           |400, 700|https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.1/css/yakukumi-serif-rb.min.css |
+|           |400     |https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.1/css/yakukumi-serif-r.min.css  |
 
 例えば，Yaku Kumi Sans の Regular (400) と Bold (700) を読み込む場合はこのように記述してください。
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.0/css/yakukumi-sans-rb.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/daiji256/yaku-kumi-fonts@v1.1/css/yakukumi-sans-rb.min.css">
 ```
 
 CSS は `font-family` を設定し，`chws` をオンにしてください。
