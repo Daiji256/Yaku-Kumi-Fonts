@@ -1,5 +1,7 @@
 # 約組フォント / Yaku Kumi Fonts
 
+[![](https://data.jsdelivr.com/v1/package/gh/daiji256/yaku-kumi-fonts/badge)](https://www.jsdelivr.com/package/gh/daiji256/yaku-kumi-fonts)
+
 ![demo1](img/yakukumi-demo-1.png)
 
 約組フォント（Yaku Kumi Fonts）は，Noto CJK を元に作成した，約物が連続したときのアキを `chws` で調整する 約物専用 Web フォントです。
