@@ -1,11 +1,10 @@
-/*! Yaku Kumi Fonts (SIL OFL 1.1 AND MIT) by Daiji256 */
-/*! Yaku Kumi is based on Noto CJK */
 @font-face {
-  font-family: "Yaku Kumi Serif";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/YakuKumiSerif-Regular.woff2") format("woff2"),
-    url("../fonts/YakuKumiSerif-Regular.woff") format("woff"),
-    url("../fonts/YakuKumiSerif-Regular.otf") format("opentype");
+    font-family: "Yaku Kumi Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+        url("../fonts/YakuKumiSerif-400.woff2") format("woff2"),
+        url("../fonts/YakuKumiSerif-400.woff") format("woff"),
+        url("../fonts/YakuKumiSerif-400.ttf") format("truetype");
 }
